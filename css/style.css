@@ -52,6 +52,44 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  font-family: Trebuchet MS, Arial, sans-serif;
+  background-color: #000814;
+  color: white;
+}
+.hero nav {
+  margin: auto;
+  margin-top: 1em;
+  color: white;
+  display: inline-flex;
+}
+.hero nav ul {
+  display: inline-flex;
+  padding-top: 0.5em;
+  list-style-type: none;
+}
+.hero nav a {
+  font-weight: 700;
+  margin-left: 3em;
+  color: white;
+}
+
+.hero-content {
+  margin-top: 2em;
+}
+.hero-content div {
+  margin-top: 5em;
+  width: 45%;
+  float: left;
+}
+.hero-content div h1 {
+  font-size: 3em;
+}
+.hero-content img {
+  width: 45%;
+  float: right;
+}
+
 .m-1 {
   margin: 1rem;
 }
